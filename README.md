@@ -1,2 +1,2 @@
 # KimSdkSample
-Kidz Android Sdk example
+Kim Android Sdk example app
