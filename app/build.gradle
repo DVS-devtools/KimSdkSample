@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "25.0.0"
+    defaultConfig {
+        applicationId "com.docomodigital.sample"
+        minSdkVersion 14
+        targetSdkVersion 22
+        versionCode 2
+        versionName "1.1"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        debug {
+            debuggable true
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:22+'
+    compile 'com.squareup.okhttp3:okhttp:3.0.1'
+    compile 'com.docomodigital:Kim:1.0.4@aar'
+}
